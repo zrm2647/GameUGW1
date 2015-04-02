@@ -160,6 +160,7 @@ namespace UGWProject
             sideL = new GeneralBlock(siderectL, sides);
             sideR = new GeneralBlock(siderectR, sides);
             ground = new GeneralBlock(floorrect, floor);
+            paulGhost = Content.Load<Texture2D>("paulfloat.png");
         }
 
         /// <summary>
@@ -343,6 +344,12 @@ namespace UGWProject
                 paulPlayer.ObjRect = temp;
                 hasJumped = false;
             }
+            if (paulPlayer.IsDead == true)
+            {
+                spriteBatch.Draw(paulGhost, paulPlayer.ObjRect, Color.White);
+            }
+            else { spriteBatch.Draw(paulPlayer.GameTexture, paulPlayer.ObjRect, Color.White); }
+
 
 
 

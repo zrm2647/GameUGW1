@@ -90,6 +90,9 @@
     <Content Include="Content\movableblockgrass.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\paulfloat.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\paulstand1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
