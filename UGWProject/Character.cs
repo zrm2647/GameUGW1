@@ -15,6 +15,7 @@ namespace UGWProject
     abstract class Character : GamePiece
     {
         //test
+        //
         //attributes that will be used for both enemies and the player
         protected bool isDead;
 

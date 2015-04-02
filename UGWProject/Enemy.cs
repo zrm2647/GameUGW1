@@ -13,6 +13,7 @@ namespace UGWProject
 {
     class Enemy:Character
     {
+        //test
         //attributes
         private int movingDirection;//this is what direction the enemy is moving
         //and what the opposite direction will be if they collide with something or reach the edge of something
