@@ -122,7 +122,7 @@ namespace UGWProject
 
 
             reader.Close();
-
+            playerPos = new Vector2(300, 300);
             toprect = new Rectangle(41, 0, 942, 41);
             siderectL = new Rectangle(0, 0, 41, 942);
             siderectR = new Rectangle(983, 0, 41, 942);
@@ -142,9 +142,9 @@ namespace UGWProject
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
-            paulRect = new Rectangle(50, 50, 50, 50);//temp rect values, will replace with correct ones later
-            paulPlayer = new Player(paulRect, paulPhysical, playerPos, false);
 
+
+            paulPhysical = Content.Load<Texture2D>("paulstand1.png");
             floor = Content.Load<Texture2D>(textures[0]);
             sides = Content.Load<Texture2D>(textures[1]);
             top = Content.Load<Texture2D>(textures[2]);
@@ -154,6 +154,8 @@ namespace UGWProject
             enemyPhysical2 = Content.Load<Texture2D>(textures[6]);
             phaseBlockTexture = Content.Load<Texture2D>(textures[10]);
             moveBlockTexture = Content.Load<Texture2D>(textures[9]);
+            paulRect = new Rectangle(300, 300, paulPhysical.Width, paulPhysical.Height);
+            paulPlayer = new Player(paulRect, paulPhysical, playerPos, false);
             ceiling = new GeneralBlock(toprect, top);
             sideL = new GeneralBlock(siderectL, sides);
             sideR = new GeneralBlock(siderectR, sides);
@@ -331,6 +333,7 @@ namespace UGWProject
             spriteBatch.Draw(sideL.GameTexture, sideL.ObjRect, Color.White);
             spriteBatch.Draw(sideR.GameTexture, sideR.ObjRect, Color.White);
             spriteBatch.Draw(ceiling.GameTexture, ceiling.ObjRect, Color.White);
+            spriteBatch.Draw(paulPlayer.GameTexture, paulPlayer.ObjRect, Color.White);
 
             spriteBatch.End();
             base.Draw(gameTime);
