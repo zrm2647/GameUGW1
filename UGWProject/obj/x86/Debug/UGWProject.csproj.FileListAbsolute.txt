@@ -87,3 +87,5 @@ F:\GameUGW1\UGWProject\bin\WindowsGL\Debug\MonoGame.Framework.dll
 F:\GameUGW1\UGWProject\bin\WindowsGL\Debug\OpenTK.dll
 F:\GameUGW1\UGWProject\bin\WindowsGL\Debug\Tao.Sdl.dll
 F:\GameUGW1\UGWProject\obj\x86\Debug\UGWProject.csprojResolveAssemblyReference.cache
+D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\obj\x86\Debug\UGWProject.exe
+D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\obj\x86\Debug\UGWProject.pdb
