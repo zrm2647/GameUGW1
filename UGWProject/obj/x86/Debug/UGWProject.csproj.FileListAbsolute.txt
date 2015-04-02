@@ -91,14 +91,11 @@ D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\obj\x86\Debug\UGWProject.e
 D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\obj\x86\Debug\UGWProject.pdb
 D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\SDL.dll
 D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\Content\grassfloor.png
-D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\Content\MoveBlockTexture.png
 D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\Content\stoneborder.png
 D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\Content\stonebordertop.png
-D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\Content\TransBlockPhys.png
 D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\Content\DeadlyBlockPhys2.png
 D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\Content\DeadlyBlockPhys.png
 D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\Content\DeadlyBlockGhost.png
-D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\Content\TransBlockGhost.png
 D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\Content\Paul_Spritesheet.png
 D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\UGWProject.exe
 D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\UGWProject.pdb
@@ -107,3 +104,10 @@ D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\MonoGa
 D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\OpenTK.dll
 D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\Tao.Sdl.dll
 D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\obj\x86\Debug\UGWProject.csprojResolveAssemblyReference.cache
+D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\Content\DeadlyBlockGhost2.png
+D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\Content\connectivebottom.png
+D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\Content\floatgrass.png
+D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\Content\floatgrass2.png
+D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\Content\moveblockgrass.png
+D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\Content\TransBlockPhysGrass.png
+D:\Users\jew3873\Documents\GitHub\GameUGW1\UGWProject\bin\WindowsGL\Debug\Content\TransBlockGhostGrass.png

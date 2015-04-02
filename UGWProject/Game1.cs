@@ -93,7 +93,8 @@ namespace UGWProject
 
 
             //each line represents each level
-            //[0] floor, [1] side borders, [2] top border, 
+            //[0] floor, [1] side borders, [2] top border,  [3]  enemy1ghost, [4]  enemy 2ghost,[5] enemy1phys, [6] enemy2phys
+            //[7] float1, [8] float2, [9] moving block, [10] transblock ghost [11] transblock physical
             if (level > 1)
             {
                 string[] lines = reader.ReadToEnd().Split(new char[] { '\n' });
@@ -136,6 +137,10 @@ namespace UGWProject
             floor = Content.Load<Texture2D>(textures[0]);
             sides = Content.Load<Texture2D>(textures[1]);
             top = Content.Load<Texture2D>(textures[2]);
+            enemyGhost1 = Content.Load<Texture2D>(textures[3]);
+            enemyGhost2 = Content.Load<Texture2D>(textures[4]);
+            enemyPhysical1 = Content.Load<Texture2D>(textures[5]);
+            enemyPhysical2 = Content.Load<Texture2D>(textures[6]);
 
         }
 
