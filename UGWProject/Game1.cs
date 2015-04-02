@@ -123,10 +123,10 @@ namespace UGWProject
 
             reader.Close();
             playerPos = new Vector2(300, 300);
-            toprect = new Rectangle(41, 0, 942, 41);
-            siderectL = new Rectangle(0, 0, 41, 942);
-            siderectR = new Rectangle(983, 0, 41, 942);
-            floorrect = new Rectangle(41, 730, 942, 41);
+            toprect = new Rectangle(41, 0, 942, 40);
+            siderectL = new Rectangle(0, 0, 40, 942);
+            siderectR = new Rectangle(983, 0, 40, 942);
+            floorrect = new Rectangle(41, 730, 942, 40);
 
 
             base.Initialize();
@@ -334,6 +334,17 @@ namespace UGWProject
             spriteBatch.Draw(sideR.GameTexture, sideR.ObjRect, Color.White);
             spriteBatch.Draw(ceiling.GameTexture, ceiling.ObjRect, Color.White);
             spriteBatch.Draw(paulPlayer.GameTexture, paulPlayer.ObjRect, Color.White);
+
+
+            if(paulPlayer.ObjRect.Bottom > ground.ObjRect.Y)
+            {
+                Rectangle temp = paulPlayer.ObjRect;
+                temp.Y = ground.ObjRect.Top + paulPlayer.ObjRect.Height;
+                paulPlayer.ObjRect = temp;
+                hasJumped = false;
+            }
+
+
 
             spriteBatch.End();
             base.Draw(gameTime);
