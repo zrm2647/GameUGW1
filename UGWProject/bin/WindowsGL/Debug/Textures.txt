@@ -1,0 +1,4 @@
+grassfloor.png,stoneborder.png,stonebordertop.png
+grassfloor.png,stoneborder.png,stonebordertop.png
+snowfloor.png,snowborder.png,snowbordertop.png
+snowfloor.png,snowborder.png,snowbordertop.png
