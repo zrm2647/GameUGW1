@@ -1,4 +1,4 @@
-grassfloor.png,stoneborder.png,stonebordertop.png
-grassfloor.png,stoneborder.png,stonebordertop.png
-snowfloor.png,snowborder.png,snowbordertop.png
-snowfloor.png,snowborder.png,snowbordertop.png
+grassfloor.png,stoneborder.png,stonebordertop.png,DeadlyBlockGhost.png,DeadlyBlockGhost2.png,DeadlyBlockPhys.png,DeadlyBlockPhys2.png
+grassfloor.png,stoneborder.png,stonebordertop.png,DeadlyBlockGhost.png,DeadlyBlockGhost2.png,DeadlyBlockPhys.png,DeadlyBlockPhys2.png
+snowfloor.png,snowborder.png,snowbordertop.png,DeadlyBlockGhost.png,DeadlyBlockGhost2.png,DeadlyBlockPhys.png,DeadlyBlockPhys2.png
+snowfloor.png,snowborder.png,snowbordertop.png,DeadlyBlockGhost.png,DeadlyBlockGhost2.png,DeadlyBlockPhys.png,DeadlyBlockPhys2.png
