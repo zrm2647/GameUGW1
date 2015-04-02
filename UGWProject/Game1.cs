@@ -27,6 +27,10 @@ namespace UGWProject
         Rectangle siderectL;
         Rectangle siderectR;
         Rectangle toprect;
+        GeneralBlock ceiling;
+        GeneralBlock sideL;
+        GeneralBlock sideR;
+        GeneralBlock ground;
         int level;
 
 
@@ -78,6 +82,7 @@ namespace UGWProject
             level = 1;
 
             reader = new StreamReader("Textures.txt");
+         
 
         }
 
@@ -118,6 +123,7 @@ namespace UGWProject
             siderectR = new Rectangle(983, 0, 41, 942);
             floorrect = new Rectangle(41, 730, 942, 41);
 
+
             base.Initialize();
         }
 
@@ -141,7 +147,10 @@ namespace UGWProject
             enemyGhost2 = Content.Load<Texture2D>(textures[4]);
             enemyPhysical1 = Content.Load<Texture2D>(textures[5]);
             enemyPhysical2 = Content.Load<Texture2D>(textures[6]);
-
+            ceiling = new GeneralBlock(toprect, top);
+            sideL = new GeneralBlock(siderectL, sides);
+            sideR = new GeneralBlock(siderectR, sides);
+            ground = new GeneralBlock(floorrect, floor);
         }
 
         /// <summary>
@@ -311,10 +320,10 @@ namespace UGWProject
             // TODO: Add your drawing code here
             spriteBatch.Begin();
 
-            spriteBatch.Draw(floor, floorrect, Color.White);
-            spriteBatch.Draw(sides, siderectL, Color.White);
-            spriteBatch.Draw(sides, siderectR, Color.White);
-            spriteBatch.Draw(top, toprect, Color.White);
+            spriteBatch.Draw(ground.GameTexture, ground.ObjRect, Color.White);
+            spriteBatch.Draw(sideL.GameTexture, sideL.ObjRect, Color.White);
+            spriteBatch.Draw(sideR.GameTexture, sideR.ObjRect, Color.White);
+            spriteBatch.Draw(ceiling.GameTexture, ceiling.ObjRect, Color.White);
 
             spriteBatch.End();
             base.Draw(gameTime);
